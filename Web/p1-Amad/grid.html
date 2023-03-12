@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+          * {
+               box-sizing: border-box;
+
+          }
+
+          .main {
+               display: grid;
+               grid-template-columns: repeat(4, 1fr);
+               grid-template-rows: 7em repeat(5, 270px);
+               grid-auto-rows: auto;
+               grid-gap: 3px 11px;
+
+          }
+
+          img {
+               border-radius: 5px;
+               height: 100%;
+               width: 100%;
+               cursor: pointer;
+          }
+
+
+          .photo {
+               border: 1px solid;
+               border-radius: 5px;
+               width: auto;
+               height: auto;
+               padding: 5px;
+               position: relative;
+               top: 0;
+
+          }
+
+          .photos1 {
+               grid-column: 1/-1;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               background-color: black;
+
+
+          }
+
+          .photos1 h1 {
+               text-align: center;
+               font-size: 5rem;
+               color: white;
+               outline: none;
+               text-transform: capitalize;
+               text-shadow: -2px 5px 5px green;
+          }
+
+          .photos {
+               grid-column: 1/-1;
+               background-color: black;
+               height: 50px;
+               position: relative;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               flex-direction: row;
+               border-radius: 5px;
+          }
+
+          .photos h2 {
+               color: white;
+               text-align: center;
+          }
+
+
+          .photos14 {
+               grid-column: 1/-1;
+          }
+
+          .photos8 {
+               grid-column: 3/-1;
+          }
+
+          .photos9 {
+               grid-column: 1/3;
+          }
+
+          .photos15 {
+               grid-column: 2/4;
+          }
+
+          @media (max-width: 768px) {
+               .main {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fill, minmax(400px 1fr));
+                    grid-gap: 3px 11px;
+               }
+
+               .photos1 h1 {
+                    text-align: center;
+                    font-size: 2rem;
+                    color: rgb(0, 0, 0);
+                    outline: none;
+                    background-color: wheat;
+               }
+
+          }
+     </style>
+     <title>Photo gallary</title>
+</head>
+
+<body>
+     <section class="main">
+          <div class="photo photos1">
+               <h1>Photo gallary</h1>
+          </div>
+          <div class="photo photos2">
+               <img src="ishan-seefromthesky-66Tu10CxYY0-unsplash (1).jpg">
+          </div>
+          <div class="photo photos3">
+               <img src="nega-YdyhHbWZ1V0-unsplash.jpg">
+          </div>
+          <div class="photo photos4">
+               <img src="umar-khan-kyOthi68nMs-unsplash.jpg">
+          </div>
+          <div class="photo photos5">
+               <img src="ibrahim-uz-3Z3RvzpVAqM-unsplash.jpg">
+          </div>
+          <div class="photo photos6">
+               <img src="malik-shibly-lKbz2ejxYbA-unsplash.jpg">
+          </div>
+          <div class="photo photos7">
+               <img src="kashif-afridi-nKPdh0MZaBU-unsplash.jpg">
+          </div>
+          <div class="photo photos8">
+               <img src="nick-fewings-ZcBY_mxVBCE-unsplash.jpg">
+          </div>
+          <div class="photo photos9">
+               <img src="preillumination-seth-_1Z5rLrf5-Y-unsplash.jpg">
+          </div>
+          <div class="photo photos10">
+               <img src="muhammad-khubaib-sarfraz-hkWB8PN_8MU-unsplash.jpg">
+          </div>
+          <div class="photo photos11">
+               <img src="sergi-pinedo-martinez-GgdKQTfG0Po-unsplash.jpg">
+          </div>
+          <div class="photo photos12">
+               <img src="sheraz-nazar-KfpTd2B5vV4-unsplash.jpg">
+          </div>
+          <div class="photo photos15">
+               <img src="zahid-rasool-_qKb28Rzcnw-unsplash.jpg">
+          </div>
+          <div class="photo photos13">
+               <img src="zahid-lilani-bnjHJO3c5uM-unsplash.jpg">
+          </div>
+          <div class="photo photos14">
+               <img src="ahsanization-1fiuRIvsgZM-unsplash.jpg">
+          </div>
+          <div class="photo photos">
+               <h2>
+                    created by:
+               </h2>
+               <h2>
+                    Amad Irfan
+               </h2>
+          </div>
+     </section>
+</body>
+
+</html>

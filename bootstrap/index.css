@@ -1,0 +1,91 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.header img {
+  background-color: rgb(255, 255, 255);
+  margin: 20px 0px 20px 0px;
+  box-shadow: 10px 10px 25px 0px black;
+  width: 250px;
+}
+.head h3 {
+  color: black;
+}
+.head {
+  border: 2px solid #f52c2c;
+  background-color: azure;
+  color: white;
+  outline-offset: 3px;
+  outline: 2px solid rgb(211, 200, 41);
+  border-radius: 10px;
+  font-size: -34px;
+  text-transform: capitalize;
+  margin: 15px 10px;
+}
+.navbar1 {
+  height: 55px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.navbar-item {
+  color: aqua;
+  background-color: white;
+}
+.navbar-item a:hover {
+  color: blue;
+}
+.text-center h3 {
+  margin: 0px 0px 0px 0px;
+}
+.para {
+  border: 2px solid green;
+  border-radius: 7px;
+  text-align: justify;
+  margin: 5px 5px;
+  padding: 20px;
+}
+.para p::first-line {
+  color: rgb(2, 187, 187);
+  text-transform: lowercase;
+}
+.para p::first-letter {
+  color: rgb(7, 105, 105);
+  text-transform: uppercase;
+  margin-left: 50px;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.col {
+  width: 98%;
+  margin: 10px 10px;
+}
+
+.col1 {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.form-selectmn {
+  display: flex;
+  flex-direction: row;
+}
+.table {
+  width: 98%;
+  border: 2px solid mediumvioletred;
+  border-radius: 105px;
+  margin: 10px 10px;
+}
+details summary::-webkit-details-marker {
+  display: none;
+  -webkit-appearance: none;
+}
+li a:hover{
+    background-color: rgb(104, 225, 255);
+    color: rgb(255, 255, 255);
+    transition: ease-in;
+    transition-delay: 100ms;
+}
